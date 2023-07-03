@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv('Data.diabetes.csv')
+data = pd.read_csv('Data/diabetes.csv')
 X = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values
 
