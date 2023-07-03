@@ -1,25 +1,32 @@
 # Need for defining sigmoid for logistic regression!
 import numpy as np
+
+# Need for importing data files!
 import pandas as pd
+
+# Need for split our datas into Train and Test with specific functions.
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+# Load the dataset.
 data = pd.read_csv('Data/diabetes.csv')
 X = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values
 
+# Split data into training and validation sets.
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=0)
 
+# Feature Scaling (Standardization)
 sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_val = sc.transform(X_val)
 
 
-# Define the logistic regression model
+# Define Sigmoid model.
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
-
+# Define the Logistic Regression model via Sigmoid.
 class LogisticRegression:
     def __init__(self, learning_rate=0.01, num_iterations=1000):
         self.learning_rate = learning_rate
