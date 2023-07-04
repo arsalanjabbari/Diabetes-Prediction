@@ -62,5 +62,7 @@ model.fit(X_train, y_train)
 
 # Evaluate the model on the validation set
 y_pred = model.predict(X_val)
-accuracy = np.sum(y_pred == y_val) / len(y_val)
-print('Accuracy:', accuracy)
+
+y_test = model.predict([])
+accuracy = (np.sum(y_pred == y_val) / len(y_val)) *100
+print('Accuracy:', accuracy, '%')

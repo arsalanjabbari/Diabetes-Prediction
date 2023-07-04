@@ -181,6 +181,9 @@ entry_age.pack(pady=10)
 button_age = ttk.Button(window_age, text="Submit", command=submit_age)
 button_age.pack(pady=10)
 
+# Test input-saving
+print(user_inputs)
+
 window_pregnancies.mainloop()
 
 
