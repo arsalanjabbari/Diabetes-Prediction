@@ -1,3 +1,7 @@
+from GUI_Test import values_list
+
+print(values_list)
+
 # Need for defining sigmoid for logistic regression!
 import numpy as np
 
@@ -25,6 +29,7 @@ X_val = sc.transform(X_val)
 # Define Sigmoid model.
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
+
 
 # Define the Logistic Regression model via Sigmoid.
 class LogisticRegression:
@@ -63,6 +68,7 @@ model.fit(X_train, y_train)
 # Evaluate the model on the validation set
 y_pred = model.predict(X_val)
 
-y_test = model.predict([])
-accuracy = (np.sum(y_pred == y_val) / len(y_val)) *100
+y_test = model.predict([values_list])
+print(y_test)
+accuracy = (np.sum(y_pred == y_val) / len(y_val)) * 100
 print('Accuracy:', accuracy, '%')
