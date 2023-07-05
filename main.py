@@ -1,6 +1,4 @@
-from GUI_Test import values_list
-
-print(values_list)
+from GUI import values_list
 
 # Need for defining sigmoid for logistic regression!
 import numpy as np
