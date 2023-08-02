@@ -1,6 +1,5 @@
 # Diabetes Prediction
 
-## Quick Overview
 The Diabetes Predictor Desktop Application is a user-friendly tool that utilizes a logistic regression model to predict the probability of a user having diabetes based on their inputted information. The application features a custom implementation of the logistic regression algorithm, an intuitive graphical user interface (GUI), and the ability to train the model on custom datasets. It aims to aid in early detection and proactive healthcare interventions for diabetes management.
 
 ## Table of Contents
