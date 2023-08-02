@@ -1,1 +1,2 @@
-.idea
+# Ignore .idea directory
+.idea/
