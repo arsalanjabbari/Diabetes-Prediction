@@ -43,9 +43,7 @@ To get started with the Diabetes-Prediction project, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Prepare the dataset for diabetes prediction.
-3. Split the dataset into training and validation sets.
-4. Train the logistic regression model using the provided code.
-5. Develop or run the user interface for diabetes prediction.
+3. Train the logistic regression model using main.py and answer the user interface questions properly to see the result of your prediction.
 6. Customize the model training by providing your dataset if needed.
 
 Detailed instructions can be found in the project code.
