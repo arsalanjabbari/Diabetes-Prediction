@@ -27,6 +27,12 @@ The objective of this phase is to train a logistic regression model using the pr
 ### Phase Three: Developing a User Interface for Diabetes Prediction
 In this phase, a user interface is developed to allow users to input their features, and the model predicts whether they are diabetic or not.
 
+### The project repository has the following structure:
+
+- **main.py**: The main Python script that contains the implementation of the logistic regression algorithm, model training, and user interface development.
+- **GUI.py/**: A file containing codes and functions related to the user interface development.
+- **Data/**: A directory containing sample datasets for diabetes prediction.
+
 ## Features
 - **Full Implementation of Logistic Regression**: The logistic regression algorithm is implemented from scratch, providing a comprehensive understanding of its principles and control over the training process.
 - **User-Friendly Application**: A user interface is created to make the prediction process simple and intuitive.
