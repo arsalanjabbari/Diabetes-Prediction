@@ -1,6 +1,5 @@
 # Diabetes-Prediction
 
-## Description
 Diabetes-Prediction is a project aimed at developing a predictive model for diabetes using logistic regression. This repository contains the code and resources needed to create a user-friendly application that predicts the likelihood of an individual having diabetes based on various input features.
 
 ## Table of Contents
